@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Image Chef studios
-      </header>
-    </div>
+    <Router> 
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+       
+      </Routes>
+    </Router>
   );
 }
 
