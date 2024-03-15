@@ -8,9 +8,12 @@
     font-size: 3em;
     text-align: left;
   }
-  
+  .homepage h2 {
+    text-align: left;
+  }
   .homepage p {
-    font-size: 1.5em;
+    font-size: 1em;
+
   }
   .logo1{
     margin-left: -60em;
