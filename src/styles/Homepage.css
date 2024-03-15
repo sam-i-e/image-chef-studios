@@ -13,6 +13,7 @@
   }
   .homepage p {
     font-size: 1em;
+    text-align: left;
 
   }
   .logo1{
@@ -27,4 +28,33 @@
     margin-top: -30em;
     margin-right: -35em;
   }
+  .homeimage4{
+    width: 20em;
+    margin-left: -80em;
+    margin-top: -15em;
+    max-height: 300px;
+  }
+  .prompt{
+    margin-top: 80px;
+    background-color: black;
+    padding-bottom: 1em;
+  }
+  .prompt .card{
+    margin-left: 40em;
+    width: 500px;
+    height: 350px;
+    background-color: black;
+    padding-top: 4em;
+    justify-content: center;
+  }
+  .prompt .card h1{
+    color: beige;
+    font-size: 26px;
+    line-height: 1em;
+    /* margin-top: 10em; */
+  }
+  .prompt .card p{
+    color: beige;
+  }
+
   
