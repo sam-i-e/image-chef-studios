@@ -43,9 +43,45 @@
   .saver-schedule-demo-button{
     color: rgb(129, 5, 5);
   }
-  .get-started-button1{
+  button{
     background-color: rgb(129, 5, 5);
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(219, 95, 95, 0.1);
+    background: linear-gradient(to right, #8a0f0f, #3d0808);
+    transition: background 0.3s ease;
+    &:hover {
+      background: linear-gradient(to right, #667eea, #764ba2);}
+    color: #0a0101;
+    padding: 7px 10px;
+    margin: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: none;
+    text-transform: uppercase;
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(95, 115, 235, 0.5);
+    }
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
+  /* Left and right edges */
+.button.left-sharp,
+.button.right-sharp {
+  border-radius: 0;
+}
+
+/* Top left and bottom right edges */
+.button.left-sharp {
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Top right and bottom left edges */
+.button.right-sharp {
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
   .prompt{
     margin-top: 80px;
     background-color: black;
