@@ -18,7 +18,7 @@
 
   }
   .logo1{
-    margin-left: -60em;
+    margin-left: -75em;
     width: 20em;
     margin-bottom: -5em;
     margin-top: -4em;
@@ -29,16 +29,28 @@
     margin-top: -30em;
     margin-right: -35em;
   }
+  .homeimage6{
+    width: 15em;
+    margin-top: -30em;
+    margin-right: -45em;
+  }
   .homeimage5{
     width: 20em;
     margin-left: -100em;
     margin-top: -15em;
     max-height: 300px;
   }
+  .saver-schedule-demo-button{
+    color: rgb(129, 5, 5);
+  }
+  .get-started-button1{
+    background-color: rgb(129, 5, 5);
+  }
   .prompt{
     margin-top: 80px;
     background-color: black;
     padding-bottom: 1em;
+    border-radius: 20px;
   }
   .prompt .card{
     margin-left: 45em;
