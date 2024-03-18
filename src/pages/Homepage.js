@@ -1,30 +1,62 @@
 import React from 'react';
 import '../styles/Homepage.css';
+import Button from '@mui/material/Button';
 // import { Link } from "react-router-dom";
 import logoOfficial from "../Assets/logoOfficial.png"
 // import cart from "../Assets/cart.png"
 import homepage from "../Assets/homepage.jpg"
-
+import homepage2 from "../Assets/homepage2.jpg"
+import homepage5 from "../Assets/homepage5.jpg"
+import homepage6 from "../Assets/homepage6.jpg"
 
 
 
 function Homepage() {
   return (
     <div className="homepage">
+      <div className='hero'>
       <img
             className="logo1"
             loading="eager"
             alt="logo"
             src={logoOfficial}
           />
-      <h1>Welcome to Image Chef Studios</h1>
-      <p>Welcome to The Image Chef Studios, where every moment is a masterpiece waiting to be captured. Our passion for photography goes beyond the lens – it's about storytelling, creativity, and preserving memories that last a lifetime. Whether you're celebrating a milestone, capturing the essence of your brand, or simply cherishing the beauty of everyday life, our team of skilled photographers is here to transform your vision into stunning imagery. From weddings to corporate events, family portraits to professional headshots, we specialize in crafting captivating visuals that evoke emotion and inspire wonder. Step into our world of creativity, where each frame tells a unique story. Let us be your guides on this visual journey, and together, let's create moments that truly shine.</p>
+      <h1>Welcome to The<br></br> Image Chef Studios</h1>
+      <h2>Where every snapshot tells a story <br></br>and every frame<br></br> captures a moment of pure magic.</h2>
       <img
-            className="homeimage1"
+            className="homeimage6"
             loading="eager"
             alt="homeimage"
-            src={homepage}
+            src={homepage6}
           />
+      <p>Welcome to The Image Chef Studios,<br></br> where every moment is a masterpiece waiting to be captured.<br></br> Our passion for photography goes beyond the lens – it's about storytelling, creativity and preserving memories that last a lifetime.</p>
+      </div>
+      <section className="prompt">
+        <div className="card">
+          <h1>Our passion for photography transcends mere snapshots; it's about crafting timeless stories through the lens.</h1>
+          <p>Whether you're celebrating a milestone, capturing the essence of your brand, or simply cherishing the beauty of everyday life,<br></br> our team of skilled photographers is here to transform your vision into stunning imagery </p>
+          <img
+            className="homeimage5"
+            loading="eager"
+            alt="homeimage"
+            src={homepage5}
+          />
+          <div className="get-started-button1">
+          <button>Book With Us</button>
+          {/* <Button variant="contained" color="primary">
+        Click Me
+      </Button> */}
+          {/* <a href="/saver" className="saver-schedule-demo-button"> Book With us</a> */}
+              </div>
+          <div className="navigate">
+            <div className="get-started-button1">
+             </div>
+              
+            {/* <a href="/saver" className="saver-schedule-demo-button"> Plan a future</a> */}
+          </div>
+        </div>
+        
+      </section>
     </div>
     
   );

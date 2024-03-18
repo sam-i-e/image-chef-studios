@@ -4,10 +4,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
   }
-  .hero {
+  /* .hero {
     background-image: url("../Assets/DJI_0896.jpg");
     height:100vh
-  }
+  } */
   
   .homepage h1 {
     font-size: 3em;
