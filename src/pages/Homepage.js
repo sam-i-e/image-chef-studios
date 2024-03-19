@@ -1,35 +1,37 @@
 import React from 'react';
 import '../styles/Homepage.css';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 // import { Link } from "react-router-dom";
 import logoOfficial from "../Assets/logoOfficial.png"
 // import cart from "../Assets/cart.png"
-import homepage from "../Assets/homepage.jpg"
-import homepage2 from "../Assets/homepage2.jpg"
+// import homepage from "../Assets/homepage.jpg"
+// import homepage2 from "../Assets/homepage2.jpg"
 import homepage5 from "../Assets/homepage5.jpg"
 import homepage6 from "../Assets/homepage6.jpg"
+import Image from "../Assets/DJI_0896_2.jpg"
+
 
 
 
 function Homepage() {
   return (
     <div className="homepage">
-      <div className='hero'>
+      <div className="hero" style={{backgroundImage: `url(${Image})`}}>
       <img
             className="logo1"
             loading="eager"
             alt="logo"
             src={logoOfficial}
           />
-      <h1>Welcome to The<br></br> Image Chef Studios</h1>
+      <h1>The<br></br> Image Chef Studios</h1>
       <h2>Where every snapshot tells a story <br></br>and every frame<br></br> captures a moment of pure magic.</h2>
-      <img
+      {/* <img
             className="homeimage6"
             loading="eager"
             alt="homeimage"
             src={homepage6}
-          />
-      <p>Welcome to The Image Chef Studios,<br></br> where every moment is a masterpiece waiting to be captured.<br></br> Our passion for photography goes beyond the lens – it's about storytelling, creativity and preserving memories that last a lifetime.</p>
+          /> */}
+      <h3>Welcome to The Image Chef Studios,<br></br> where every moment is a masterpiece waiting to be captured.<br></br> Our passion for photography goes beyond the lens – it's about storytelling, creativity and preserving memories that last a lifetime.</h3>
       </div>
       <section className="prompt">
         <div className="card">

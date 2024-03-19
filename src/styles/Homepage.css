@@ -4,21 +4,22 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
   }
-  /* .hero {
-    background-image: url("../Assets/DJI_0896.jpg");
-    height:100vh
-  } */
+  .hero {
+    /* background-image: url("../Assets/DJI_0896.jpg"); */
+    height:90vh;
+    border-radius: 5px;
+  }
   
   .homepage h1 {
     font-size: 3em;
-    text-align: left;
+    text-align: center;
   }
   .homepage h2 {
-    text-align: left;
+    text-align: center;
   }
   .homepage p {
     font-size: 1em;
-    text-align: left;
+    text-align: center;
 
   }
   .logo1{
