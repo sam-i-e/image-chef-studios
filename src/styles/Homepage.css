@@ -16,12 +16,12 @@
   .homepage h1 {
     font-size: 3em;
     text-align: center;
-    color: aliceblue;
+    color: rgb(45, 52, 58);
   }
   .homepage h2 {
     text-align: center;
-    color: aliceblue;
-    margin-top: 7em;
+    color: rgb(189, 210, 230);
+    margin-top: 5em;
     font-size: 24px;
     font-weight: 100;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
@@ -63,7 +63,7 @@
   }
   .homepage12{
     width: 40em;
-    margin-right: -35em;
+    margin-right: -55em;
   }
   .saver-schedule-demo-button{
     color: rgb(129, 5, 5);
