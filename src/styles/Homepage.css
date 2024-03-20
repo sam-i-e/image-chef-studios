@@ -114,5 +114,20 @@
   .prompt .card p{
     color: beige;
   }
-
+  .illustration-container .card{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: -30em;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .illustration-container .card h1{
+    color: #000;
+  }
+  .illustration-container .card p{
+    color: #000;
+    font-size: 26px;
+    margin-top: 5em;
+  }
   
