@@ -18,6 +18,7 @@
     text-align: center;
     color: rgb(189, 210, 230);
     margin-top: 7em;
+    /* margin: auto; */
     font-size: 24px;
     font-weight: 100;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
@@ -75,6 +76,11 @@
     width: 40em;
     margin-right: -55em;
   }
+  .homepage13{
+    width: 25em;
+    margin-left: -55em;
+    margin-top: 3em;
+  }
   .saver-schedule-demo-button{
     color: rgb(129, 5, 5);
   }
@@ -106,6 +112,8 @@
     background-color: black;
     padding-bottom: 1em;
     border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(224, 28, 28, 0.1), 0 8px 16px rgba(226, 25, 25, 0.1);
+
   }
   .prompt .card{
     margin-left: 45em;
@@ -139,5 +147,18 @@
     color: #000;
     font-size: 26px;
     margin-top: 5em;
+  }
+  .illustration-container2 .card{
+    background-color: rgb(67, 147, 158);
+    width: 800px;
+    height: 400px;
+    margin-top: -25em;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 35em;
+  }
+  .illustration-container2 .card h1{
+    color: aliceblue;
+    /* margin-top: 5em; */
   }
   
