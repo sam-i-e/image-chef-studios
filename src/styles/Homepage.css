@@ -156,7 +156,7 @@
     margin-top: 5em;
   }
   .illustration-container2 .card{
-    background-color: rgb(67, 147, 158);
+    background-color: white;
     width: 800px;
     height: 400px;
     margin-top: -25em;
@@ -165,7 +165,12 @@
     margin-left: 35em;
   }
   .illustration-container2 .card h1{
-    color: aliceblue;
+    color: rgb(120, 189, 241);
     /* margin-top: 5em; */
+  }
+  .illustration-container2 .card p{
+    color: #000;
+    font-size: 26px;
+    margin-top: 5em;
   }
   
