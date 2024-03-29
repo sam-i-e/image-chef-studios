@@ -91,7 +91,9 @@ function Homepage() {
           <h1>See the World Through our Eyes</h1>
           <p>Explore our portfolio and let us transform your moments into works of art that you'll cherish for a lifetime.</p>
         </div>
-
+        <div className="topcontent">
+          <h2>Our portfolio</h2>
+        </div>
         </div>
     </div>
     
