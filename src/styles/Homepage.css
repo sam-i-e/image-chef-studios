@@ -183,4 +183,10 @@
     font-size: 26px;
     margin-top: 5em;
   }
+  .topcontent p{
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    /* margin-top: 10em; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  }
   
