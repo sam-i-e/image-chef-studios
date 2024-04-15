@@ -8,14 +8,29 @@ import logoOfficial from "../Assets/logoOfficial.png"
 // import homepage2 from "../Assets/homepage2.jpg"
 import homepage11 from "../Assets/homepage11.jpg"
 // import homepage6 from "../Assets/homepage6.jpg"
-import Image from "../Assets/DJI_0896_2.jpg"
+import Image from "../Assets/DJI_0600.jpg"
 import homepage12 from "../Assets/homepage12.png"
 import homepage13 from "../Assets/homepage13.png"
+import ImageSlider from "./ImageSlider";
+// import carousel from '../Components/carousel';
+// import { carousel } from './Components/carousel.jsx';
 
 
 
 
 function Homepage() {
+  const slides = [
+    {url: 'http://localhost:3001/image-1.jpg', title: 'Slide 1'},
+    {url: 'http://localhost:3000/image-2.jpg', title: 'Slide 2'},
+    {url: 'http://localhost:3000/image-3.jpg', title: 'Slide 3'},
+    {url: 'http://localhost:3000/image-4.jpg', title: 'Slide 4'},
+    {url: 'http://localhost:3000/image-5.jpg', title: 'Slide 5'},
+  ];
+  const containerStyles = {
+    width: "500px",
+    height: "280px",
+    margin: "0 auto",
+  };
   return (
     <div className="homepage">
        <img
@@ -26,7 +41,6 @@ function Homepage() {
           />
       <div className="hero" style={{backgroundImage: `url(${Image})`}}>
       <div className='hero-cont'>
-      {/* <h1>The<br></br> Image Chef Studios</h1> */}
       {/* <h2>Do you ever stop and think about how bad you're going to miss a moment you're living long after it's gone?<br></br> Worry no more. */}
 {/* We capture memories so you can re-live them over and over again!</h2> */}
       <h2>Where every snapshot tells a story <br></br>and every frame<br></br> captures a moment of pure magic.</h2>
@@ -38,6 +52,12 @@ function Homepage() {
           /> */}
       {/* <h3>Welcome to The Image Chef Studios,<br></br> where every moment is a masterpiece waiting to be captured.<br></br> Our passion for photography goes beyond the lens – it's about storytelling, creativity and preserving memories that last a lifetime.</h3> */}
       </div>
+      </div>
+      <div className="slides">
+        <h1>Hello People</h1>
+        <div style={containerStyles}>
+        <ImageSlider slides={slides}/>
+        </div>
       </div>
       <div className='illustration-container'>
       <img
@@ -93,7 +113,10 @@ function Homepage() {
         </div>
         <div className="topcontent">
           <h2>Our portfolio</h2>
+          <p>We have a wide range of photography styles and specialize in capturing the essence of everyday life.</p>
         </div>
+        {/* Carousel */}
+        <carousel />
         </div>
     </div>
     
