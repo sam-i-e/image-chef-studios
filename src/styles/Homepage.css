@@ -15,8 +15,8 @@
     margin-top: 5em;
     text-align: end;
     flex-shrink: 0;
-    /* flex-grow:0;
-    flex-shrink: 0; */
+    flex-grow:0;
+    flex-shrink: 0;
   }
   .hero .img {
     width: 100%;
