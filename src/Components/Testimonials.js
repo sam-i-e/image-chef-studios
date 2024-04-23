@@ -13,6 +13,11 @@ const Testimonials = () => {
       name: 'Faith Wanjiru',
       content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     },
+    {
+        id: 3,
+        name: 'Amina N.',
+        content: 'We hired The Image Chef Studios for our traditional Kenyan wedding, and the photos turned out to be absolutely breathtaking! They managed to capture the emotions and traditions so authentically. Highly recommended!',
+      },
   ];
 
   return (
