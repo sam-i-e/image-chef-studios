@@ -6,7 +6,7 @@ const Testimonials = () => {
     {
       id: 1,
       name: 'Mike Kimani',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      content: 'I was blown away by the stunning photos from my safari trip! The images perfectly captured the essence and beauty of Kenya. Truly talented photographers who know how to seize the moment.',
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ const Testimonials = () => {
     {
         id: 3,
         name: 'Amina N.',
-        content: 'We hired The Image Chef Studios for our traditional Kenyan wedding, and the photos turned out to be absolutely breathtaking! They managed to capture the emotions and traditions so authentically. Highly recommended!',
+        content: 'We hired The Image Chef Studios for our ruracio (traditional Kenyan wedding) and the photos turned out to be absolutely breathtaking! They managed to capture the emotions and traditions so authentically. Highly recommended!',
       },
   ];
 
