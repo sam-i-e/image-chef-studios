@@ -18,6 +18,11 @@ const Testimonials = () => {
         name: 'Amina N.',
         content: 'We hired The Image Chef Studios for our ruracio (traditional Kenyan wedding) and the photos turned out to be absolutely breathtaking! They managed to capture the emotions and traditions so authentically. Highly recommended!',
       },
+      {
+        id: 4,
+        name: 'Paul Nyareru.',
+        content: 'I was initially nervous about getting my photos taken, but The Image Chef Studios made me feel at ease right from the start. Their professionalism and attention to detail are commendable. The final photographs exceeded all my expectations!',
+      },
   ];
 
   return (
