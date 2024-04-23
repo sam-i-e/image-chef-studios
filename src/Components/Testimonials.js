@@ -11,7 +11,7 @@ const Testimonials = () => {
     {
       id: 2,
       name: 'Faith Wanjiru',
-      content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      content: 'Hello As a local Kenyan, I have always admired the diverse landscapes of our country. The photos from The Image Chef Studios showcased Kenya in such a unique and beautiful way. They have a keen eye for detail and composition.',
     },
     {
         id: 3,
