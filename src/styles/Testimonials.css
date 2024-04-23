@@ -26,6 +26,8 @@
     opacity: 0.9;
     /* transform: rotate(5deg); */
     border: 2px solid #007BFF;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7));
+    background-color: #f1f1f1;
   }
   
   .testimonial p {
@@ -38,6 +40,6 @@
     margin: 0;
     font-size: 18px;
     font-weight: 600;
-    color: #227e8a;
+    color: #4382d4;
   }
   
