@@ -12,7 +12,8 @@ import Image from "../Assets/DJI_0600.jpg"
 import homepage12 from "../Assets/homepage12.png"
 import homepage13 from "../Assets/homepage13.png"
 import ImageSlider from "./ImageSlider";
-// import carousel from '../Components/carousel';
+import Testimonials from '../Components/Testimonials';
+import carousel from '../Components/carousel';
 // import { carousel } from './Components/carousel.jsx';
 
 
@@ -100,6 +101,22 @@ function Homepage() {
         </div>
         
       </section>
+      {/* <div>
+                <section className="display-images">
+                    <div className="image-1">
+                    <Link to=""><img src={individual1} alt="individualimage" /></Link>
+                    <h2>Tools for investing <br></br>and Saving</h2>
+                    </div>
+                    <div className="image-2">
+                    <Link to=""><img src={individual2} alt="individualimage1" /></Link>
+                    <h3>Expert insights, resources, and education</h3>
+                    </div>
+                    <div className="image-2">
+                    <Link to=""><img src={individual3} alt="individualimage2" /></Link>
+                    <h4>Individual Retirement Accounts (IRAs)</h4>
+                    </div>
+                </section>
+            </div> */}
       <div className='illustration-container2'>
       <img
             className="homepage13"
@@ -111,13 +128,15 @@ function Homepage() {
           <h1>See the World Through our Eyes</h1>
           <p>Explore our portfolio and let us transform your moments into works of art that you'll cherish for a lifetime.</p>
         </div>
-        <div className="topcontent">
+        {/* <div className="topcontent">
           <h2>Our portfolio</h2>
           <p>We have a wide range of photography styles and specialize in capturing the essence of everyday life.</p>
-        </div>
+        </div> */}
         {/* Carousel */}
         <carousel />
         </div>
+        <carousel />
+        <Testimonials />
     </div>
     
   );
