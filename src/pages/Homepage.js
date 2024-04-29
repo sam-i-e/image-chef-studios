@@ -11,6 +11,7 @@ import homepage11 from "../Assets/homepage11.jpg"
 import Image from "../Assets/DJI_0600.jpg"
 import homepage12 from "../Assets/homepage12.png"
 import homepage13 from "../Assets/homepage13.png"
+import homepage14 from "../Assets/homepage14.JPG"
 import ImageSlider from "./ImageSlider";
 import Testimonials from '../Components/Testimonials';
 import carousel from '../Components/carousel';
@@ -127,7 +128,14 @@ function Homepage() {
         <div className='card'>
           <h1>See the World Through our Eyes</h1>
           <p>Explore our portfolio and let us transform your moments into works of art that you'll cherish for a lifetime.</p>
+          <img
+            className="homeimage14"
+            loading="eager"
+            alt="homeimage"
+            src={homepage14}
+          />
         </div>
+        
         {/* <div className="topcontent">
           <h2>Our portfolio</h2>
           <p>We have a wide range of photography styles and specialize in capturing the essence of everyday life.</p>

@@ -81,6 +81,11 @@
     margin-top: -18em;
     margin-left: -95em;
   }
+  .homeimage14{
+    width: 15em;
+    margin-top: 5em;
+    margin-left: -95em;
+  }
   .homeimage5{
     width: 20em;
     margin-left: -100em;
@@ -166,7 +171,7 @@
   .illustration-container2 .card{
     background-color: white;
     width: 800px;
-    height: 400px;
+    height: 800px;
     margin-top: -25em;
     border-radius: 10px;
     text-align: center;
