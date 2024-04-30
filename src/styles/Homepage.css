@@ -89,8 +89,14 @@
   }
   .homeimage15{
     width: 20em;
+    /* margin-top: 10em; */
+    margin-left: -50em;
+    border-radius: 5px;
+  }
+  .homeimage16{
+    width: 20em;
     margin-top: 15em;
-    margin-left: -85em;
+    margin-left: -50em;
     border-radius: 5px;
   }
   .homeimage5{
