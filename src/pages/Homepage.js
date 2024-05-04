@@ -12,6 +12,10 @@ import Image from "../Assets/DJI_0600.jpg"
 import homepage12 from "../Assets/homepage12.png"
 import homepage13 from "../Assets/homepage13.png"
 import homepage14 from "../Assets/homepage14.JPG"
+import homepage15 from "../Assets/homepage15.jpg"
+import homepage16 from "../Assets/homepage16.jpg"
+import homepage17 from "../Assets/homepage17.JPG"
+import homepage18 from "../Assets/homepage18.jpg"
 import ImageSlider from "./ImageSlider";
 import Testimonials from '../Components/Testimonials';
 import carousel from '../Components/carousel';
@@ -133,6 +137,51 @@ function Homepage() {
             loading="eager"
             alt="homeimage"
             src={homepage14}
+          />
+          <img
+            className="homeimage15"
+            loading="eager"
+            alt="homeimage"
+            src={homepage15}
+          />
+          <img
+            className="homeimage16"
+            loading="eager"
+            alt="homeimage"
+            src={homepage16}
+          />
+        </div>
+        <div className='homepage15'>
+        <img
+            className="homeimage15"
+            loading="eager"
+            alt="homeimage"
+            src={homepage15}
+          />
+          
+        </div>
+        {/* <div className='homepage16'>
+        <img
+            className="homeimage16"
+            loading="eager"
+            alt="homeimage"
+            src={homepage16}
+          />
+        </div> */}
+        <div className='homepage17'>
+        <img
+            className="homeimage17"
+            loading="eager"
+            alt="homeimage"
+            src={homepage17}
+          />
+        </div>
+        <div className='homepage18'>
+        <img
+            className="homeimage18"
+            loading="eager"
+            alt="homeimage"
+            src={homepage18}
           />
         </div>
         
